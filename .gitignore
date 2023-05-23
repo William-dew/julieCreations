@@ -1,0 +1,6 @@
+wp-config.php
+vendor/
+wp/
+/content/upgrade
+/content/plugins/*/
+/content/themes/*/

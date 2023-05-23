@@ -24,5 +24,11 @@
             "content/themes/{$name}": ["type:wordpress-theme"],
             "content/plugins/{$name}": ["type:wordpress-plugin"]
         }
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "johnpbloch/wordpress-core-installer": true
+        }
     }
 }

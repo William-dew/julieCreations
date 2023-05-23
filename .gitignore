@@ -4,3 +4,4 @@ wp/
 /content/upgrade
 /content/plugins/*/
 /content/themes/*/
+!/content/themes/julie/

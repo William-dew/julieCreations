@@ -1,0 +1,13 @@
+h1 {
+    font-family: 'Allison', cursive; 
+    font-size: 25rem;
+}
+h2{
+    font-family: 'Noto Serif Georgian', serif;
+}
+
+body{
+    background-image: url(../images/background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}

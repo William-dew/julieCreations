@@ -1,6 +1,7 @@
-h1 {
-    font-family: 'Allison', cursive; 
-}
-h2{
-    font-family: 'Noto Serif Georgian', serif;
-}
+@import 'reset.css';
+@import 'global.css';
+@import 'header.css';
+
+*{
+    color: red;
+ }

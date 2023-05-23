@@ -1,6 +1,7 @@
 <?php
 function julie_script()
 {
+    
     wp_register_style('fonts_allison','https://fonts.googleapis.com/css2?family=Allison&display=swap');
     wp_register_style('fonts_georgian','https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian&display=swap');
 

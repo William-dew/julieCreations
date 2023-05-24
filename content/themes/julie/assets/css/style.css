@@ -1,7 +1,6 @@
 @import 'reset.css';
 @import 'global.css';
 @import 'header.css';
+@import 'footer.css';
 
-*{
-    color: red;
- }
+

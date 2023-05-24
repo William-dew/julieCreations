@@ -1,8 +1,9 @@
 .title {
     font-family: 'Allison', cursive;
     font-size: 10rem;
-    border: 2px red solid;
+    /* border: 2px red solid; */
     text-align: center;
+    margin-top: 3rem;
 
 }
 
@@ -10,30 +11,42 @@ h2 {
     font-family: 'Noto Serif Georgian', serif;
 }
 
+header{
+    display:initial;
+    padding-top: 5rem;
+}
+
 .menu-top {
-    border: 2px solid red;
     padding: 1rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    border-top: 1px white solid;
-    
+    position: sticky;
+    top: 0px;
+    background-color: rgba(255,255,255,0.5);
 }
 
 .menu-top ul {
     display: flex;
     justify-content: center;
     
+    
 }
 
 .menu-top a {
+    font-family: 'Noto Serif Georgian', serif;
+    font-weight: bold;
     margin: 1rem;
-    text-decoration: none;
-    color: #333;
+    
+    color: black;
     text-decoration: none;
     transition: color 0.3s ease;
+    text-decoration: underline 0.25rem rgba(0, 0, 0, 0);
+    transition: text-decoration-color 300ms;
+    
 }
 
 .menu-top a:hover{
     color: #ff5500;
+    text-decoration:underline 0.25rem red;
 }
 /* @media screen and (max-width: 600px) {
     .navbar-top {

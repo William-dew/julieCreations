@@ -7,10 +7,6 @@
 </head>
 <body <?php body_class(); ?>>
     <header class="header">
-        <h1 class="title">Les Créations de Julie</h1>
+        <h1 class="title">Les Créations de Julie !</h1>
         <?php get_template_part('template-parts/nav/nav'); ?>
     </header>
-
-
-
- 

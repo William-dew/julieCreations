@@ -1,0 +1,19 @@
+.front-page__presentation{
+    padding: 5rem;
+}
+
+.front-page{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.front-page h2 {
+    font-size: 6rem;
+    margin-bottom: 1rem;
+    font-family: 'Allison', cursive;
+}
+
+.front-page p {
+    font-size: 1.5rem;
+}

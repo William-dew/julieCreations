@@ -1,15 +1,12 @@
-.card{
-    border: 5px red solid;
+.container-card {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
-    align-content: center;
-    text-align: center;
-    max-width: 100vh;
     
-
-
 }
-.card__image{
-    
+
+.card {
+    border: 5px red solid;
+    margin: 1rem;
+    width: 18rem;
 }

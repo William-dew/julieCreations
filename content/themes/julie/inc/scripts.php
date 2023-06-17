@@ -4,7 +4,7 @@ function julie_script()
 
     wp_register_style('fonts_allison', 'https://fonts.googleapis.com/css2?family=Allison&display=swap');
     wp_register_style('fonts_georgian', 'https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian&display=swap');
-    wp_enqueue_style('bootstrap','https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css');
+    wp_enqueue_style('bootstrap','https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css');
     
     wp_enqueue_style(
         'css',

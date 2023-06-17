@@ -25,9 +25,10 @@
 
 @media screen and (max-width: 1000px) {
     .front-page h2{
-        font-size: 14rem;
+        font-size: 10rem;
     }
     .front-page p{
-        font-size: 3rem;
+        font-size: 2rem;
     }
+  
   }

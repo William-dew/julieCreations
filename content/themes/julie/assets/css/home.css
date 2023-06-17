@@ -2,11 +2,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
+
 }
 
-.card {
-    border: 5px red solid;
-    margin: 1rem;
-    width: 18rem;
+
+@media screen and (max-width: 1000px) {
+    .card {
+        width: 100%;
+    }
 }

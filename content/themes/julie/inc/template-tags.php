@@ -8,9 +8,11 @@ function pageArchive($type)
             // on va chercher des articles
             'post_type' => 'creation',
             'tax_query' => [
-                ['taxonomy' => 'type_de_creation',
-                 'field' => 'slug',
-                 'terms' => $type,],
+                [
+                    'taxonomy' => 'type_de_creation',
+                    'field' => 'slug',
+                    'terms' => $type,
+                ],
             ]
         ]
     );

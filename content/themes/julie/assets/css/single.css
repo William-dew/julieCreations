@@ -1,12 +1,6 @@
-.single img{
-    max-width: 90vh;
-}
-.single{
+.single {
     text-align: center;
 }
-
-@media screen and (max-width: 1000px) {
-    .single img {
-        max-width: 400px;
-    }
-  }
+.single img {
+    scale: 100vh;
+}

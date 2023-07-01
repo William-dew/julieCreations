@@ -55,11 +55,11 @@ header {
     height: 2px;
     width: 0;
     background: transparent;
-    transition: width .5s ease, background-color .5s ease;
+    transition: width .4s ease, background-color .5s ease;
 }
 
 .menu-top li:hover:after {
-    width: 90%;
+    width: 80%;
     background: #444;
 }
 

@@ -5,3 +5,4 @@ wp/
 /content/plugins/*/
 /content/themes/*/
 !/content/themes/julie/
+doc/

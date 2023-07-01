@@ -5,6 +5,18 @@
 
 }
 
+.card {
+    scale:1;
+    transition-property: scale;
+    transition-duration: 0.4s;
+    transition-delay: 0.15s;
+}
+.card:hover{
+    scale:1.05;
+    z-index: 100;
+    
+}
+
 
 @media screen and (max-width: 1000px) {
     .card {

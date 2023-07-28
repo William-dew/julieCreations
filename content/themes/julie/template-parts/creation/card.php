@@ -3,8 +3,10 @@
   <div class="card-body">
     <h5 class="card-title"><?php the_title(); ?></h5>
     <p class="card-text mb-2">
-      <?php echo get_field('dimensions'); ?> -
-      <?php echo get_field('prix'); ?> €
+    <div>
+      <p class="m-1"><?php echo get_field('dimensions'); ?></p>
+      <p class="mb-1"><?php echo get_field('prix'); ?> €</p>
+    </div>
     </p>
     <a href="<?php the_permalink(); ?>" class="btn btn-light">
       <?php

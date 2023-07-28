@@ -4,3 +4,14 @@
 /* .single img {
     scale: 100vh;
 } */
+.imageEnAvant{
+    height: 80vh;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .imageEnAvant {
+        width: 90%;
+        height: 90%;
+    }
+}

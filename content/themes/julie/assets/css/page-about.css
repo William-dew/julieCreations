@@ -3,3 +3,9 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 1rem;
 }
+
+.aboutPage {
+    color: black;
+    text-align: center;
+    text-shadow: 0 0 10px #FFFFFF;
+}

@@ -1,7 +1,7 @@
 
 <?php
 
-function pageArchive($type)
+function pageArchive($type = "")
 {
     $creationQuery = new WP_Query(
         [

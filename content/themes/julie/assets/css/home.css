@@ -2,23 +2,28 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
 
+.container-card a {
+    text-decoration: none;
 }
 
 .card {
-    scale:1;
-    transition-property: scale;
-    transition-duration: 0.4s;
-    transition-delay: 0.15s;
+    scale: 1;
+    transition-property: all;
+    transition-duration: 0.25s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in-out;
+
 }
-.card:hover{
-    scale:1.05;
-    z-index: 100;
-    
+
+.card:hover {
+       transform: scale(1.06);
+
 }
 
 @media screen and (max-width: 1000px) {
     .card {
-        width: 100%;
+        max-width: 100%;
     }
 }

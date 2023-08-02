@@ -10,6 +10,7 @@
       <li class="mx-3"><a href="mailto:julie.raphy@yahoo.fr" class=" text-dark bi bi-mailbox"></a></li>
       <li><a class="text-dark bi bi-instagram" href="https://www.instagram.com/"></a></li>
       <li class="mx-3"><a class="text-dark bi bi-facebook" href="https://fr-fr.facebook.com/"></a></li>
+      <li><?php echo get_search_form();?></li>
     </ul>
   </footer>
 </body>

@@ -1,5 +1,13 @@
-.page_404 {
-    color: black;
+.error404 .page_404 {
+    color: rgb(243, 243, 243);
     text-align: center;
     text-shadow: 0 0 10px #FFFFFF;
+    font-family: allison;
+    
+}
+
+.error404 {
+    background-image: url(../images/coucher_de_soleil.png);
+    background-attachment: fixed;
+    background-size: cover;
 }

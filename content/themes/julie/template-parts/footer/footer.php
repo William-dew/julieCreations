@@ -7,11 +7,10 @@
   </div>
 
   <ul class="nav col-md-3 justify-content-end list-unstyled d-flex flex-column flex-md-row">
-    <li class="mx-1"><a href="mailto:contact.lescreationsdejulie@gmail.com" class="text-light">Courriel</a></li>
-    <!-- Ajout du lien vers la page de contact -->
-    <li class="mx-1"><a class="text-light" href="<?php echo esc_url(home_url('/contact')); ?>">Contact</a></li>
+    
+    <li class="m-2"><a class="text-light" href="<?php echo esc_url(home_url('/contact')); ?>">Contact</a></li>
     <!-- Ajout du lien vers la politique de confidentialité -->
-    <li class="mx-1"><a class="text-light" href="<?php echo esc_url(home_url('/politique-de-confidentialite')); ?>">Politique de confidentialité</a></li>
+    <li class="m-2"><a class="text-light" href="<?php echo esc_url(home_url('/politique-de-confidentialite')); ?>">Politique de confidentialité</a></li>
   </ul>
 </footer>
 

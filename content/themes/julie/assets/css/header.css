@@ -73,3 +73,10 @@ header {
         font-size: 3.5rem;
     }
   }
+
+  @media (max-width: 350px) {
+    .menu-top a {
+        font-size: 0.75rem;
+        margin: 0.2rem;
+    }
+  }

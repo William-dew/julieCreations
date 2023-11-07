@@ -11,7 +11,7 @@ function julie_script()
         'css',
         get_theme_file_uri('assets/css/style.css'),
         ['fonts_allison', 'fonts_georgian'],
-        '20231107'
+        '20231108'
     );
 
 
